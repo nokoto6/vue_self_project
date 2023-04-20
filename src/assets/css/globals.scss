@@ -1,0 +1,36 @@
+//$maincolor: lighten(rgb(8, 157, 83),5%);
+$maincolor: lighten(rgb(199, 17, 78),5%);
+//$maincolor: lighten(rgb(226, 101, 43),5%);
+$bg_color: rgba(0, 0, 0, 0.222);
+$bg_blur: 12px;
+$lt_padding: 15px;
+$border_img: url('@/assets/images/light_border3.png') 32 fill / 45px / 15px space;
+$router_hover_color: rgb(0, 195, 255);
+
+$mainfont: '@/assets/fonts/minecraft.ttf';
+
+@font-face {
+    font-family: 'Minecraft';
+    src: url($mainfont);
+}
+
+$border-color: rgb(34, 34, 34);
+$border-color-hover: rgb(222, 228, 225);
+
+@function btn-outlines($color) {
+    @return
+        drop-shadow(0px -2px 0px $color)
+        drop-shadow(0px 2px 0px $color)
+        drop-shadow(2px 0px 0px $color)
+        drop-shadow(-2px 0px 0px $color)
+    ;
+}
+
+@function btn-borders($color) {
+    @return
+        0 -4px 0 0 $color,
+        0 4px 0 0 darken($color,22%),
+        4px 0px 0 0 darken($color,15%),
+        -4px 0px 0 0 darken($color,15%)
+    ;
+}

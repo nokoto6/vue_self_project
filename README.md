@@ -1,19 +1,11 @@
-# 7sky
+# Проект на фреймворке Vue Js
+Проект делался для друга + помогло в освоении этого фреймворка
 
-## Project setup
-```
-npm install
-```
+Общий вид сайта
+![Иллюстрация к проекту](https://github.com/nokoto6/vue_self_project/blob/main/source/full.png)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Адаптивное расположение элементов (для мобильных устройств)
+![Иллюстрация к проекту](https://github.com/nokoto6/vue_self_project/blob/main/source/full.png)
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+SPA приложение, переключение навигации (В данном случае на Донат) меняет только часть страницы
+![Иллюстрация к проекту](https://github.com/nokoto6/vue_self_project/blob/main/source/full.png)

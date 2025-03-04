@@ -1,5 +1,4 @@
-# Проект для майн сервера на Vue Js
-Осваивал Вью
+# Первый проект на Vue Js для сервера в Minecraft
 
 Общий вид
 ![Иллюстрация к проекту](https://github.com/nokoto6/vue_self_project/blob/main/source/full.png)
